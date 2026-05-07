@@ -1,0 +1,2 @@
+REVOKE EXECUTE ON FUNCTION public.is_seller_team_member(uuid, uuid) FROM PUBLIC, anon, authenticated;
+REVOKE EXECUTE ON FUNCTION public.get_seller_team_role(uuid, uuid) FROM PUBLIC, anon, authenticated;
